@@ -6,7 +6,7 @@
 # 3.) Reboot and boot new kernel
 
 # To create MOK.priv and MOK.der run the following command:
-# openssl req -new x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 3650 -subj "/CN=Custom MOK/"
+# openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 3650 -subj "/CN=Custom MOK/"
 
 # To create MOK.pem run the following command:
 # openssl x509 -inform DER -in MOK.der -out MOK.pem
