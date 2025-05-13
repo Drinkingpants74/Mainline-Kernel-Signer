@@ -1,5 +1,5 @@
 # Mainline-Kernel-Signer
-Script to Decompress, Sign, and Recompress the Mainline Kernel from the Mainline project
+Script to Decompress, Sign, and Recompress the Mainline Kernel from the [Mainline project by bkw777](https://github.com/bkw777/mainline)
 
 ## WARNING! HUGE WARNING!
 **THIS SCRIPT IS STUPID! IT WILL NOT CHECK IF YOU ARE MESSING WITH THE KERNEL YOU ARE CURRENTLY RUNNING!**
